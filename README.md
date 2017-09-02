@@ -94,3 +94,16 @@ As of the last release, the following algorithms are implemented:
   * Based on Fortuna algorithm
   
   
+## Running tests
+
+To run all the tests in the vm, execute
+
+    pub run test
+
+To run all tests in a browser, first run
+
+    pub serve test
+
+and, in another console, run
+
+    pub run test -p firefox --pub-serve=8080 test\all_tests_web.dart
